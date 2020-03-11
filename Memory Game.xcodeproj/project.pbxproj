@@ -14,6 +14,9 @@
 		184C3A9F24194AE7006788C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184C3A9D24194AE7006788C0 /* LaunchScreen.storyboard */; };
 		184C3AAA24194AE7006788C0 /* Memory_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C3AA924194AE7006788C0 /* Memory_GameTests.swift */; };
 		184C3AB524194AE7006788C0 /* Memory_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C3AB424194AE7006788C0 /* Memory_GameUITests.swift */; };
+		184C3AC324194EF3006788C0 /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C3AC224194EF3006788C0 /* EnterNameViewController.swift */; };
+		184C3AC524195699006788C0 /* LevelSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C3AC424195699006788C0 /* LevelSelectViewController.swift */; };
+		184C3AC7241956D0006788C0 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C3AC6241956D0006788C0 /* ChallengeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		184C3AB024194AE7006788C0 /* Memory GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C3AB424194AE7006788C0 /* Memory_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory_GameUITests.swift; sourceTree = "<group>"; };
 		184C3AB624194AE7006788C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184C3AC224194EF3006788C0 /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
+		184C3AC424195699006788C0 /* LevelSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectViewController.swift; sourceTree = "<group>"; };
+		184C3AC6241956D0006788C0 /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				184C3A9424194AE4006788C0 /* AppDelegate.swift */,
 				184C3A9624194AE4006788C0 /* ViewController.swift */,
 				184C3A9824194AE4006788C0 /* Main.storyboard */,
+				184C3AC6241956D0006788C0 /* ChallengeViewController.swift */,
+				184C3AC424195699006788C0 /* LevelSelectViewController.swift */,
+				184C3AC224194EF3006788C0 /* EnterNameViewController.swift */,
 				184C3A9B24194AE7006788C0 /* Assets.xcassets */,
 				184C3A9D24194AE7006788C0 /* LaunchScreen.storyboard */,
 				184C3AA024194AE7006788C0 /* Info.plist */,
@@ -256,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184C3AC324194EF3006788C0 /* EnterNameViewController.swift in Sources */,
+				184C3AC7241956D0006788C0 /* ChallengeViewController.swift in Sources */,
+				184C3AC524195699006788C0 /* LevelSelectViewController.swift in Sources */,
 				184C3A9724194AE4006788C0 /* ViewController.swift in Sources */,
 				184C3A9524194AE4006788C0 /* AppDelegate.swift in Sources */,
 			);
