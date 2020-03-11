@@ -9,6 +9,7 @@
 import UIKit
 
 class EnterNameViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +22,19 @@ class EnterNameViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var txtName: UITextField!
+    @IBAction func btnEnterName(_ sender: UIButton) {
+   
+        performSegue(withIdentifier: "moveToMenuSegue", sender: self)
 
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destVC: ViewController = segue.destination as! ViewController;
+        destVC.name = self.txtName.text!;
+        
+    }
+    
     /*
     // MARK: - Navigation
 

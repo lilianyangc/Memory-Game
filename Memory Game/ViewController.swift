@@ -9,10 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var name: String = "";
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        lblName.text = name;
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +22,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBOutlet weak var lblName: UILabel!
+    
 }
 

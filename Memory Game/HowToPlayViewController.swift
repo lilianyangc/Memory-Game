@@ -1,5 +1,5 @@
 //
-//  LevelSelectViewController.swift
+//  HowToPlayViewController.swift
 //  Memory Game
 //
 //  Created by Zachery Ten Hoope on 2020-03-11.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LevelSelectViewController: UIViewController {
+class HowToPlayViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,17 +21,6 @@ class LevelSelectViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
     @IBAction func btnBack(_ sender: Any) {
         dismiss(animated:true, completion: nil)
     }

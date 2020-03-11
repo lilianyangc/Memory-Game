@@ -17,6 +17,8 @@
 		184C3AC324194EF3006788C0 /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C3AC224194EF3006788C0 /* EnterNameViewController.swift */; };
 		184C3AC524195699006788C0 /* LevelSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C3AC424195699006788C0 /* LevelSelectViewController.swift */; };
 		184C3AC7241956D0006788C0 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C3AC6241956D0006788C0 /* ChallengeViewController.swift */; };
+		184C3AC924197137006788C0 /* HowToPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C3AC824197137006788C0 /* HowToPlayViewController.swift */; };
+		184C3ACB2419714D006788C0 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C3ACA2419714D006788C0 /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		184C3AC224194EF3006788C0 /* EnterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
 		184C3AC424195699006788C0 /* LevelSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectViewController.swift; sourceTree = "<group>"; };
 		184C3AC6241956D0006788C0 /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		184C3AC824197137006788C0 /* HowToPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayViewController.swift; sourceTree = "<group>"; };
+		184C3ACA2419714D006788C0 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				184C3A9424194AE4006788C0 /* AppDelegate.swift */,
 				184C3A9624194AE4006788C0 /* ViewController.swift */,
 				184C3A9824194AE4006788C0 /* Main.storyboard */,
+				184C3AC824197137006788C0 /* HowToPlayViewController.swift */,
+				184C3ACA2419714D006788C0 /* AboutUsViewController.swift */,
 				184C3AC6241956D0006788C0 /* ChallengeViewController.swift */,
 				184C3AC424195699006788C0 /* LevelSelectViewController.swift */,
 				184C3AC224194EF3006788C0 /* EnterNameViewController.swift */,
@@ -267,7 +273,9 @@
 			files = (
 				184C3AC324194EF3006788C0 /* EnterNameViewController.swift in Sources */,
 				184C3AC7241956D0006788C0 /* ChallengeViewController.swift in Sources */,
+				184C3AC924197137006788C0 /* HowToPlayViewController.swift in Sources */,
 				184C3AC524195699006788C0 /* LevelSelectViewController.swift in Sources */,
+				184C3ACB2419714D006788C0 /* AboutUsViewController.swift in Sources */,
 				184C3A9724194AE4006788C0 /* ViewController.swift in Sources */,
 				184C3A9524194AE4006788C0 /* AppDelegate.swift in Sources */,
 			);
