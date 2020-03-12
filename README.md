@@ -2,8 +2,9 @@
 IOS memory game implemented in xcode
 
 
-Instructor: Prof. Peter Sigurdson
+Instructor: <br />
+  Prof. Peter Sigurdson
 
-Group members:
-Francis Victa
-Maria Lilian Yang
+Group members:<br />
+  Francis Victa <br />
+  Maria Lilian Yang
