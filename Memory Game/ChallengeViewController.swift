@@ -9,9 +9,13 @@
 import UIKit
 
 class ChallengeViewController: UIViewController {
+
+    @IBOutlet weak var lblPanel: UILabel!
+    @IBOutlet weak var lblLevel: UILabel!
+    @IBOutlet weak var lblLives: UILabel!
+    @IBOutlet weak var lblBtnPanel: UIButton!
     
     var level: Level!
-    @IBOutlet weak var lblPanel: UILabel!
     var challengeNumber = 0
     var compareDigit = 0
     var currentNum = 0
@@ -19,8 +23,13 @@ class ChallengeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        lblLevel.text = level.levelType
         level.createChallenges()
+        level.lives = 3
+        lblLives.text = String(level.lives)
         lblPanel.text = String(level.challenges[challengeNumber].memorize.map(String.init).joined())
+        
+        //logging
         print(level.levelType + " level selected")
         print(level.challenges[0].memorize.map(String.init).joined())
         print(level.challenges[1].memorize.map(String.init).joined())
@@ -35,7 +44,13 @@ class ChallengeViewController: UIViewController {
 
 
     @IBAction func btnBack(_ sender: UIButton) {
+        level.createChallenges()
         dismiss(animated:true, completion: nil)
+    }
+    @IBAction func btnPanel(_ sender: Any) {
+        compareDigit = 0
+        lblPanel.backgroundColor = UIColor.white
+        lblBtnPanel.setTitle("", for: UIControlState.normal)
     }
     
     @IBAction func btnNum1(_ sender: Any) {
@@ -80,12 +95,58 @@ class ChallengeViewController: UIViewController {
     }
     
     func checkIfNumGood(){
-        print("current Number")
-        print(currentNum)
-        print("compare digit:")
-        print(String(level.challenges[challengeNumber].memorize[compareDigit]))
+        //add code to blur numbers
+        lblPanel.backgroundColor = UIColor.black
+        lblBtnPanel.setTitle("Tap to show again!", for: UIControlState.normal)
+        
+        //compare digits in sequence and digit pressed
+        if level.challenges[challengeNumber].memorize[compareDigit] == currentNum {
+            checkWin()
+        } else {
+            checkLose()
+        }
     }
     
+    func checkWin(){
+        compareDigit += 1
+        if compareDigit == level.challenges[challengeNumber].memorize.count {
+            print("won the challenge")
+            //reset compare digits
+            compareDigit = 0
+            challengeNumber += 1
+            lblPanel.backgroundColor = UIColor.white //change panel color
+            lblBtnPanel.setTitle("", for: UIControlState.normal)
+            
+            if challengeNumber == 3 {  //if completed all 3 challenges
+                print("you've completed level " + level.levelType)
+                //exit
+                level.createChallenges()
+                dismiss(animated:true, completion: nil)
+            } else {
+                //next challenge
+                lblPanel.text = String(level.challenges[challengeNumber].memorize.map(String.init).joined())
+            }
+            
+        }
+    }
+    
+    func checkLose(){
+        level.lives -= 1
+        lblLives.text = String(level.lives)
+        
+        print("lives left: " + String(level.lives))
+        
+        if level.lives == 0 { //if there are no more lives
+            print("you ran out of lives!")
+            level.createChallenges()
+            dismiss(animated:true, completion: nil)
+        } else { // if there are lives remaining
+            print("wrong number! lose a life!")
+            compareDigit = 0
+            lblPanel.backgroundColor = UIColor.white
+            lblBtnPanel.setTitle("", for: UIControlState.normal)
+        }
+    }
     
     
 }

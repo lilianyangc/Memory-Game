@@ -45,6 +45,8 @@ class Level {
     
     func createChallenges(){
         
+        self.challenges = []
+        
         // instantiate 3 challenges
         // push the challenges in the array
         var digits: Int
@@ -55,7 +57,7 @@ class Level {
         } else if levelType == "hard" {
             digits = 9
         } else {
-            digits = 14
+            digits = 12
         }
         
         for n in 0...2 {
