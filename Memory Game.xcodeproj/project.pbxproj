@@ -19,6 +19,9 @@
 		184C3AC7241956D0006788C0 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C3AC6241956D0006788C0 /* ChallengeViewController.swift */; };
 		184C3AC924197137006788C0 /* HowToPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C3AC824197137006788C0 /* HowToPlayViewController.swift */; };
 		184C3ACB2419714D006788C0 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C3ACA2419714D006788C0 /* AboutUsViewController.swift */; };
+		24332B1E241AA9FA00C81DC8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24332B1D241AA9FA00C81DC8 /* Player.swift */; };
+		24332B20241AAC0800C81DC8 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24332B1F241AAC0800C81DC8 /* Level.swift */; };
+		24332B22241AADAA00C81DC8 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24332B21241AADAA00C81DC8 /* Challenge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		184C3AC6241956D0006788C0 /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
 		184C3AC824197137006788C0 /* HowToPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayViewController.swift; sourceTree = "<group>"; };
 		184C3ACA2419714D006788C0 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		24332B1D241AA9FA00C81DC8 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		24332B1F241AAC0800C81DC8 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		24332B21241AADAA00C81DC8 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,7 @@
 		184C3A9324194AE4006788C0 /* Memory Game */ = {
 			isa = PBXGroup;
 			children = (
+				24332B1C241AA9C800C81DC8 /* Models */,
 				184C3A9424194AE4006788C0 /* AppDelegate.swift */,
 				184C3A9624194AE4006788C0 /* ViewController.swift */,
 				184C3A9824194AE4006788C0 /* Main.storyboard */,
@@ -138,6 +145,16 @@
 				184C3AB624194AE7006788C0 /* Info.plist */,
 			);
 			path = "Memory GameUITests";
+			sourceTree = "<group>";
+		};
+		24332B1C241AA9C800C81DC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				24332B1D241AA9FA00C81DC8 /* Player.swift */,
+				24332B1F241AAC0800C81DC8 /* Level.swift */,
+				24332B21241AADAA00C81DC8 /* Challenge.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,10 +291,13 @@
 				184C3AC324194EF3006788C0 /* EnterNameViewController.swift in Sources */,
 				184C3AC7241956D0006788C0 /* ChallengeViewController.swift in Sources */,
 				184C3AC924197137006788C0 /* HowToPlayViewController.swift in Sources */,
+				24332B20241AAC0800C81DC8 /* Level.swift in Sources */,
 				184C3AC524195699006788C0 /* LevelSelectViewController.swift in Sources */,
+				24332B1E241AA9FA00C81DC8 /* Player.swift in Sources */,
 				184C3ACB2419714D006788C0 /* AboutUsViewController.swift in Sources */,
 				184C3A9724194AE4006788C0 /* ViewController.swift in Sources */,
 				184C3A9524194AE4006788C0 /* AppDelegate.swift in Sources */,
+				24332B22241AADAA00C81DC8 /* Challenge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -220,7 +220,6 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <state key="normal" title="Enter Adventure"/>
                                 <connections>
                                     <action selector="btnEnterName:" destination="8ka-HJ-DbX" eventType="touchUpInside" id="Mfz-Lm-zre"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="moveToMenuSegue" id="pqI-P2-65j"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Memory Adventures" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTu-Up-6HL">
@@ -230,17 +229,26 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znL-ry-ec1">
+                                <rect key="frame" x="98" y="273" width="178" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ST7-BP-Zh3"/>
                     </view>
                     <connections>
+                        <outlet property="errorMsg" destination="znL-ry-ec1" id="Qrx-b4-p5L"/>
                         <outlet property="txtName" destination="z9q-kF-stJ" id="6GW-JR-5ZN"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="moveToMenuSegue" id="S1t-xC-pbb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZAK-b1-j7m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="79" y="667"/>
+            <point key="canvasLocation" x="77.599999999999994" y="666.11694152923542"/>
         </scene>
         <!--Challenge View Controller-->
         <scene sceneID="Vx7-q8-iHs">
@@ -250,13 +258,6 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="challenge panel" borderStyle="roundedRect" textAlignment="center" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="H46-SJ-LlS">
-                                <rect key="frame" x="45" y="104" width="284" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27Y-Ke-hjG">
                                 <rect key="frame" x="45" y="185" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -376,6 +377,13 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                     <action selector="btnBack:" destination="Xe4-eP-C2F" eventType="touchUpInside" id="CxV-JK-nVu"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge Panel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hcw-Gp-cMV">
+                                <rect key="frame" x="45" y="105" width="284" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="60T-yg-1dN"/>
@@ -399,6 +407,7 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <color key="backgroundColor" red="0.98953777639961871" green="1" blue="0.65410697583723554" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <connections>
+                                    <action selector="btnLevelEasy:" destination="MVW-a0-jwH" eventType="touchUpInside" id="LAA-tE-Lh7"/>
                                     <segue destination="Xe4-eP-C2F" kind="show" identifier="easySegue" id="SBw-Xy-1ov"/>
                                 </connections>
                             </button>

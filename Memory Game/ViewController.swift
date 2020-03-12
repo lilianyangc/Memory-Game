@@ -9,12 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var name: String = "";
+    
+    var player: Player!;
+    
+    @IBOutlet weak var lblName: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        lblName.text = name;
+        
+        //   lblName.text = name;
+        
+        // ASsign name from passed data from segue
+//        lblName.text = String(player.name!)
+//        print("\(player.name)")
+           lblName.text = String(player.name);
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,7 +31,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBOutlet weak var lblName: UILabel!
+    
     
 }
 
