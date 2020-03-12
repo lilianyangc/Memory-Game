@@ -266,6 +266,9 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <state key="normal" title="1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnNum1:" destination="Xe4-eP-C2F" eventType="touchUpInside" id="yUh-um-V2W"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Zf-uG-soa">
                                 <rect key="frame" x="147" y="185" width="80" height="80"/>
@@ -275,6 +278,9 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <state key="normal" title="2">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnNum2:" destination="Xe4-eP-C2F" eventType="touchUpInside" id="wxy-kr-tV4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbM-2f-AMs">
                                 <rect key="frame" x="249" y="185" width="80" height="80"/>
@@ -284,6 +290,9 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <state key="normal" title="3">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnNum3:" destination="Xe4-eP-C2F" eventType="touchUpInside" id="qPw-wP-IrJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="349-ra-yCq">
                                 <rect key="frame" x="45" y="286" width="80" height="80"/>
@@ -293,6 +302,9 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <state key="normal" title="4">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnNum4:" destination="Xe4-eP-C2F" eventType="touchUpInside" id="TmH-XO-iL2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rE6-iZ-Do8">
                                 <rect key="frame" x="147" y="286" width="80" height="80"/>
@@ -302,6 +314,9 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <state key="normal" title="5">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnNum5:" destination="Xe4-eP-C2F" eventType="touchUpInside" id="b0Z-BM-242"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DaE-Bx-SuD">
                                 <rect key="frame" x="249" y="286" width="80" height="80"/>
@@ -311,6 +326,9 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <state key="normal" title="6">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnNum6:" destination="Xe4-eP-C2F" eventType="touchUpInside" id="CAS-cb-lvr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WwS-zI-MUf">
                                 <rect key="frame" x="45" y="389" width="80" height="80"/>
@@ -320,6 +338,9 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <state key="normal" title="7">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnNum7:" destination="Xe4-eP-C2F" eventType="touchUpInside" id="hsP-3R-ggg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fl-hN-LkN">
                                 <rect key="frame" x="147" y="389" width="80" height="80"/>
@@ -329,6 +350,9 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <state key="normal" title="8">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnNum8:" destination="Xe4-eP-C2F" eventType="touchUpInside" id="QLC-4q-J51"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNw-yD-9Lx">
                                 <rect key="frame" x="249" y="389" width="80" height="80"/>
@@ -338,6 +362,9 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <state key="normal" title="9">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnNum9:" destination="Xe4-eP-C2F" eventType="touchUpInside" id="DXZ-G0-hKK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkq-2T-NdB">
                                 <rect key="frame" x="147" y="492" width="80" height="80"/>
@@ -347,6 +374,9 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <state key="normal" title="0">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnNum0:" destination="Xe4-eP-C2F" eventType="touchUpInside" id="DuG-af-iV7"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5c7-2K-y6O">
                                 <rect key="frame" x="165" y="607" width="44" height="21"/>
@@ -378,7 +408,7 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenge Panel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hcw-Gp-cMV">
-                                <rect key="frame" x="45" y="105" width="284" height="48"/>
+                                <rect key="frame" x="0.0" y="105" width="375" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
@@ -388,10 +418,13 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="60T-yg-1dN"/>
                     </view>
+                    <connections>
+                        <outlet property="lblPanel" destination="Hcw-Gp-cMV" id="HIq-JU-ANI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZxW-zj-eRl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2376.8000000000002" y="658.92053973013503"/>
+            <point key="canvasLocation" x="2440.8000000000002" y="658.92053973013503"/>
         </scene>
         <!--Level Select View Controller-->
         <scene sceneID="xt2-qB-1Vo">
@@ -408,7 +441,6 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <connections>
                                     <action selector="btnLevelEasy:" destination="MVW-a0-jwH" eventType="touchUpInside" id="LAA-tE-Lh7"/>
-                                    <segue destination="Xe4-eP-C2F" kind="show" identifier="easySegue" id="SBw-Xy-1ov"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZ7-4S-MIW">
@@ -416,7 +448,7 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.88325255461584407" blue="0.23594340870320085" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
-                                    <segue destination="Xe4-eP-C2F" kind="show" identifier="mediumSegue" id="MWD-2S-7RW"/>
+                                    <action selector="btnLevelMedium:" destination="MVW-a0-jwH" eventType="touchUpInside" id="thI-3A-bC8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7a8-s4-lbv">
@@ -424,7 +456,7 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.68135513466912578" blue="0.14037591981887865" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
-                                    <segue destination="Xe4-eP-C2F" kind="show" identifier="hardSegue" id="qPV-ui-zdy"/>
+                                    <action selector="btnLevelHard:" destination="MVW-a0-jwH" eventType="touchUpInside" id="CeU-Fz-4oS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdF-P6-7Is">
@@ -432,7 +464,7 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.43330716490018728" blue="0.078937250017304117" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
-                                    <segue destination="Xe4-eP-C2F" kind="show" identifier="impossibroSegue" id="Sh6-mU-vQf"/>
+                                    <action selector="btnLevelImpossible:" destination="MVW-a0-jwH" eventType="touchUpInside" id="Qg3-8a-3Of"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFW-N1-XhX">
@@ -539,6 +571,12 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="lfm-Ha-3rj"/>
                     </view>
+                    <connections>
+                        <segue destination="Xe4-eP-C2F" kind="show" identifier="easySegue" id="1Gu-xS-4bo"/>
+                        <segue destination="Xe4-eP-C2F" kind="show" identifier="mediumSegue" id="TSl-55-XsD"/>
+                        <segue destination="Xe4-eP-C2F" kind="show" identifier="hardSegue" id="cT5-tb-DDV"/>
+                        <segue destination="Xe4-eP-C2F" kind="show" identifier="impossibleSegue" id="rjq-Y0-AdA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hu8-Iz-g3R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -546,6 +584,6 @@ If you forget the sequence, tap the black panel to show the numbers again. Howev
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Sh6-mU-vQf"/>
+        <segue reference="rjq-Y0-AdA"/>
     </inferredMetricsTieBreakers>
 </document>

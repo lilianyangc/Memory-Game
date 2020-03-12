@@ -11,12 +11,12 @@ import Foundation
 class Challenge {
     
     var numLength: Int //number of digits to memorize
-    var memorize: String //actual digit sequence to memorize
+    var memorize: [Int] //actual digit sequence to memorize
     var challengeWon: Bool
     
     init(NumLength: Int){
         self.numLength = NumLength
-        self.memorize = ""
+        self.memorize = []
         self.challengeWon = false
         generateChallenge()
     }
@@ -26,9 +26,11 @@ class Challenge {
     }
     
     func generateChallenge(){
+        print("generate challenge")
         for _ in 1...numLength {
-            memorize = memorize + String(Int(arc4random_uniform(10)))
+            memorize.append(Int(arc4random_uniform(10)))
         }
     }
+    
     
 }

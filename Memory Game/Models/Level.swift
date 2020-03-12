@@ -25,7 +25,7 @@ class Level {
         self.levelCompleted = false
         self.levelType = LevelType
         self.challenges = []
-        print("Level has been created!")
+        print("Level " + LevelType + " has been created!")
     }
     
     
@@ -41,6 +41,28 @@ class Level {
             print("Life subtracted")
         }
     
+    }
+    
+    func createChallenges(){
+        
+        // instantiate 3 challenges
+        // push the challenges in the array
+        var digits: Int
+        if levelType == "easy" {
+            digits = 4
+        } else if levelType == "medium" {
+            digits = 7
+        } else if levelType == "hard" {
+            digits = 9
+        } else {
+            digits = 14
+        }
+        
+        for n in 0...2 {
+            let challenge = Challenge(NumLength: digits + n) //create a challenge instance
+            self.challenges.append(challenge)
+        }
+        
     }
     
 }
